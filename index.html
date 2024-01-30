@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Verification</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Student Verification</h1>
+    
+    <h2>Register Identity</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br>
+    <label for="collegeName">College Name:</label>
+    <input type="text" id="collegeName"><br>
+    <label for="rollNo">Roll No:</label>
+    <input type="text" id="rollNo"><br>
+    <label for="deptName">Department Name:</label>
+    <input type="text" id="deptName"><br>
+    <button onclick="registerIdentity()">Register</button>
+    </div>
+    <div class="container">
+    <h2>Verify Identity</h2>
+    <label for="verifyTransactionId">Transaction ID:</label>
+    <input type="text" id="verifyTransactionId"><br>
+    <button onclick="requestVerification()">Verify</button>
+    </div>
+    
+    </div>
+    <div class="container1">
+    <div id="message"></div>
+    </div>
+    <script src="web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
