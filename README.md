@@ -35,7 +35,7 @@ Before setting up the project, ensure you have the following prerequisites insta
 
 5. Open the application in your browser and connect MetaMask to your local Ganache blockchain.
 
-## About
+## Tools and Use
 - **MetaMask Setup**: MetaMask is a browser extension that allows users to interact with Ethereum-based applications directly in their browser. Install MetaMask and configure it to connect to your local Ganache blockchain for testing purposes.
 
 - **Ganache**: Ganache is a local blockchain for Ethereum development. It provides a simulated environment where you can deploy and test smart contracts without interacting with the main Ethereum network.
